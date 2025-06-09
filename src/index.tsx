@@ -131,7 +131,7 @@ const path1 = "scA0.toogles.login";
       <RN.Pressable
         style={{
           backgroundColor: "#0abf46",
-          paddingVertical: 12,
+          paddingVertical: 8,
           paddingHorizontal: 34,
           borderRadius: 25,
           alignItems: "center",
