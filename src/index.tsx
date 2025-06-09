@@ -157,6 +157,14 @@ const path1 = "scA0.toogles.login";
         onChangeText={setUserName}
       />
 
+       <RN.Text
+        style={{
+          fontWeight: "700",
+          color: "#000",
+          fontSize: 14,
+        }}>
+           Senha
+       </RN.Text>
       <RN.TextInput
         placeholder="Digite sua Senha"
         style={{
