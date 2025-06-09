@@ -144,7 +144,7 @@ const path1 = "scA0.toogles.login";
             fontSize: 16,
           }}
         >
-          Login
+          Sign in
         </RN.Text>
       </RN.Pressable>
     </RN.View>
