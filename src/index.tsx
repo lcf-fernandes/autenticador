@@ -201,7 +201,15 @@ const path1 = "scA0.toogles.login";
           margimTop: 10,
         }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`scA0.toogles.login`],
+          value: [true]
+        }})]
+ , trigger: 'on press'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
