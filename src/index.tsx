@@ -34,7 +34,7 @@
   height: "100%",
   alignItems: "center",
   justifyContent: "center",
-  backgroundColor: "#fff",
+  backgroundColor: "#abffc7",
   padding: "20px",
 }`],
 
