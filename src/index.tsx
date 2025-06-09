@@ -158,7 +158,7 @@ const path1 = "scA0.toogles.login";
           paddingHorizontal: 15,
           borderRadius: 8,
           marginBottom: 10,
-          color: "#ccc",
+          color: "#7c8087",
         }}
         value={userPassword}
         onChangeText={setUserPassword}
