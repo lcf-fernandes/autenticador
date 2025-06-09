@@ -133,7 +133,7 @@ const path1 = "scA0.toogles.login";
           backgroundColor: "#0abf46",
           paddingVertical: 12,
           paddingHorizontal: 24,
-          borderRadius: 15,
+          borderRadius: 25,
           alignItems: "center",
         }}
         onPress={handleLogin}
