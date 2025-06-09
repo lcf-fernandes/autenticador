@@ -52,7 +52,22 @@
   padding: "20px",
 }`],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `Sign in`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
