@@ -207,7 +207,10 @@ const path1 = "scA0.toogles.login";
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            `{
+            color: "#FFFFFF",
+            fontSize: 16,
+          }`
           ],
 
           children: [
