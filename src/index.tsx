@@ -47,6 +47,7 @@
   alignItems: "center",
   justifyContent: "center",
   padding: "20px",
+backgroundColor: 'rgba(255,255,255,0.6)
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
