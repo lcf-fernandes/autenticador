@@ -47,7 +47,6 @@
   alignItems: "center",
   justifyContent: "center",
   padding: "20px",
-backgroundColor: 'rgba(255,255,255,0.2)',
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
@@ -57,9 +56,9 @@ backgroundColor: 'rgba(255,255,255,0.2)',
 
           arrStyles: [
             `{
-            color: "#FFFFFF",
-            fontSize: 30,
-          }`
+    color: "#0abf46",
+    fontSize: 30,
+}`
           ],
 
           children: [
