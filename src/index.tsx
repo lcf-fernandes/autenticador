@@ -132,7 +132,7 @@ const path1 = "scA0.toogles.login";
         style={{
           backgroundColor: "#0abf46",
           paddingVertical: 12,
-          paddingHorizontal: 24,
+          paddingHorizontal: 34,
           borderRadius: 25,
           alignItems: "center",
         }}
