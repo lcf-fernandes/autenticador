@@ -42,14 +42,12 @@
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+            styles:[`{
+  width: "100%",
+  alignItems: "center",
+  justifyContent: "center",
+  padding: "20px",
+}`],
 
             functions:[()=>{}],            childrenItems:[() =><></>],
 
