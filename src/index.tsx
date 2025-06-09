@@ -198,6 +198,7 @@ const path1 = "scA0.toogles.login";
           paddingHorizontal: 34,
           borderRadius: 25,
           alignItems: "center",
+          margimTop: 10,
         }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
