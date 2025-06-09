@@ -135,6 +135,14 @@ const path1 = "scA0.toogles.login";
         justifyContent: "center",
       }}
     >
+<RN.Text
+        style={{
+          fontWeight: "700",
+          color: "#000",
+          fontSize: 14,
+        }}>
+           Nome de Usuário
+       </RN.Text>
       <RN.TextInput
         placeholder="Digite seu Nome de usuário"
         style={{
