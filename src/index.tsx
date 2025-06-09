@@ -171,7 +171,8 @@ const path1 = "scA0.toogles.login";
  functions.funcGroup({ args, pass:{
  arrFunctions: [() => ["scA0.toogles.login", "==", false ]]
  , trigger: 'on listen'
-}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+}})],            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
@@ -186,7 +187,40 @@ const path1 = "scA0.toogles.login";
 
           args,
 
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `OK`
+          ],
+
+          args,
+
         }}/>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
