@@ -48,7 +48,6 @@
   width: "100%",
   alignItems: "center",
   justifyContent: "center",
-  backgroundColor: "#fff",
   padding: "20px",
 }`],
 
@@ -165,7 +164,6 @@ const path1 = "scA0.toogles.login";
   width: "100%",
   alignItems: "center",
   justifyContent: "center",
-  backgroundColor: "#fff",
   padding: "20px",
 }`],
 
