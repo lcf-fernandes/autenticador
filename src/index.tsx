@@ -136,7 +136,7 @@ const path1 = "scA0.toogles.login";
       }}
     >
       <RN.TextInput
-        placeholder="Nome de usuário"
+        placeholder="Digite seu Nome de usuário"
         style={{
           borderWidth: 1,
           borderColor: "#65686e",
