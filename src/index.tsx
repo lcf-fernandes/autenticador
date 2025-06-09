@@ -78,6 +78,20 @@
             elementsProperties:['{}'],
 
             styles:[`{
+height: "50px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
   width: "100%",
   alignItems: "center",
   justifyContent: "center",
