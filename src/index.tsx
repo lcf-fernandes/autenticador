@@ -192,14 +192,13 @@ const path1 = "scA0.toogles.login";
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+            styles:[`{
+          backgroundColor: "#0abf46",
+          paddingVertical: 8,
+          paddingHorizontal: 34,
+          borderRadius: 25,
+          alignItems: "center",
+        }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
